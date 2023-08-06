@@ -18,7 +18,6 @@ const products = [
 ]
 
 const filterthing = products.filter((item) => item.quantity > 9);
-const filterthing1 = products.filter((item) => item.id!=3);
-const filterthingy = filterthing1.map((item) => item.name)
+const filterthing1 = products.filter((item) => item.id!=3).map((item) => item.name);
 console.log(filterthing)
-console.log(filterthingy)
+console.log(filterthing1)
