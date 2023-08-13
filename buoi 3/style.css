@@ -1,0 +1,18 @@
+.button1{
+    padding: 10px;
+    color: red;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px red solid;
+}
+.title{
+    color: blue;
+    background-color: white;
+}
+.red{
+    color: red;
+}
+.myStyle{
+    padding: 20px;
+    background-color: orangered;
+}
