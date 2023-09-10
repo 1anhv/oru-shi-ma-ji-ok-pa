@@ -10,7 +10,6 @@ onAuthStateChanged(auth, (user) => {
       console.log(user.email)
         welcomeText.textContent = "welcome" + " " + user.email;
     } else {
-      // User is signed out
-      // ...
+        window.location = './login.html'
     }
   });
