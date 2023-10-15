@@ -27,6 +27,7 @@ const HandleLogin = () => {
       // Signed in 
       const user = userCredential.user;
         alert(user.email)
+        localStorage.setItem('currentUser', user.email)
         window.location = './index.html'
     })
     .catch((error) => {
